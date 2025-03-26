@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno serve --watch --allow-net mod.ts"
+  },
+  "imports": {
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.49",
+    "@std/html": "jsr:@std/html@^1.0.3",
+    "@std/media-types": "jsr:@std/media-types@^1.1.0"
+  }
+}
